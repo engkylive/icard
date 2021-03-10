@@ -1,0 +1,83 @@
+/* collor pallete
+#56CBF9 - vivid blue sky
+#7FBEEB - aero
+#AFBED1 - light steel blue
+#EAC5D8 - queen pink
+#DBD8F0 - lavender web */
+
+/* ***** GLOBAL STYLE */
+
+html, body {
+  height: 100%;
+}
+
+img {
+  width: 200px;
+  /* border-radius: 50%; */
+}
+
+body {
+  background: #DBD8F0;
+  font-size: 16px/1;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.text-block {
+  color: black;
+}
+
+.image-block, .text-block {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.image-block {
+  margin-right: 1em;
+}
+
+.image-block img {
+  width: 180px;
+}
+
+.site-wrapper {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.card {
+  background-image: url(https://i.imgur.com/MJAkxbh.png);
+  padding: 2em;
+  width: 520px;
+  max-width: 100%;
+  margin: 2em auto;
+  border-radius: 0.8em;
+  -webkit-box-shadow: 23px 8px 27px 0px rgba(0,0,0,0.22);
+  -moz-box-shadow: 23px 8px 27px 0px rgba(0,0,0,0.22);
+  box-shadow: 23px 8px 27px 0px rgba(0,0,0,0.22);
+}
+
+.header {
+  font-size: 0.8rem;
+}
+
+a {
+  color: #56CBF9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #AFBED1;
+}
+
+.no-style {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no-style li {
+  display: inline-block;
+}
